@@ -1,0 +1,226 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+.container
+{
+    height: 60px;
+    width: 100%;
+    background-color: #a52a2a;
+}
+@media (max-width: 768px) {
+    .container
+    {
+        width: 100%;
+        height: 55px;
+    }
+}
+
+.container .logo
+{
+display: flex;
+padding-left: 50px;
+padding-top: 2px;
+justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .container .logo 
+    {
+        padding-left: 7px;
+        justify-content: space-between;
+        
+    }
+}
+.container .logo img
+{
+width: 90px;
+}
+@media (max-width: 768px) {
+    .container .logo img
+{
+      width: 75px;
+}
+}
+.container .link
+{
+  display: flex;  
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 768px) {
+    .container .link 
+    {
+       width: 100%;
+        padding-right: 20px;
+    }
+}
+.container .link a
+{
+ text-decoration: none;
+ color: white;
+ padding: 10px;
+padding-right: 50px;
+ margin: auto; 
+ letter-spacing: 1px;
+}
+@media (max-width: 768px) {
+    .container .link a
+{
+ 
+ padding: 5px;
+}
+}
+
+.container .link a:hover
+{
+color: black;
+transition: 0.3s;
+}
+
+header .image img
+{
+    width: 100%;
+    height: 100vh;
+     background-position: center;
+     background-size: cover;
+     
+ }
+ @media (max-width: 768px) {
+    header .image img
+    {
+        width: 100%;
+        height: 85vh;
+    }
+}
+ .section
+ {
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    
+    
+ }
+ @media (max-width: 768px) {
+    .section
+ {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+ }
+ }
+ 
+ .section .box
+ {
+    border: 1px solid black;
+    border-radius: 5px;    
+    margin: 10px;
+ }
+ .section .box img
+ { 
+  width: 100%;
+ }
+ 
+ .section .txt h1
+ {
+  padding-left: 10px;
+  padding-bottom: 3px;  
+ }
+ .section .txt p
+ {
+  padding: 10px;
+ }
+ .section .txt h1:hover
+ {
+    color: brown;
+    transition: 0.3s;
+ }
+ .clothes .containe
+ {        
+    background-color: #eee;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));   
+ }
+ @media (max-width: 768px) {
+    .clothes .containe
+    {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+    }
+ }
+.clothes .para h1
+{
+      
+       text-align: center;
+       margin: 20px;
+    font-size: 50px;
+    
+}
+@media (max-width: 768px) {
+    .clothes h1
+    {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+.clothes .containe .box2
+ {
+    border: 1px solid black;
+    border-radius: 5px;    
+    margin: 10px;
+   
+ }
+ 
+ .clothes .containe .box2 img
+ { 
+  width: 100%;
+ }
+ 
+ .clothes .containe .tx h2
+ {
+  padding-left: 10px;
+  padding-bottom: 3px;  
+ }
+ .clothes .containe .tx p
+ {
+  padding: 10px;
+ }
+ .clothes .containe .tx h1:hover
+ {
+    color: brown;
+    transition: 0.3s;
+ }
+ .clothes .containe .tx h2:hover
+ {
+    color: brown;
+    transition: 0.3s;
+ }
+ 
+ .footer
+ {
+    background-color: #dfdbff;
+    display: flex;
+    justify-content: center;
+ }
+ .footer .content h2
+ {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+  color: #a52a2a;
+ }
+ .footer .content span
+ {
+  font-size: 30px;
+  display: block;
+  margin-bottom: 10px;
+  text-align: center;
+ }
